@@ -126,7 +126,7 @@
                     <div class="col-lg-12">
                         <!-- Section Tittle -->
                         <div class="section-tittle text-center mb-80">
-                            <h2>Paket Wisata Unggulan</h2>
+                            <h2>Tempat Terfavorit</h2>
                         </div>
                     </div>
                 </div>
@@ -201,7 +201,7 @@
                 <!-- More Btn -->
                 <div class="row justify-content-center">
                     <div class="room-btn pt-20">
-                        <a href="catagori.html" class="btn view-btn1">View All Places</a>
+                        <a href="#" class="btn view-btn1">Lihat Senua Tempat</a>
                     </div>
                 </div>
             </div>
@@ -226,7 +226,7 @@
                                 <span class="flaticon-list"></span>
                             </div>
                             <div class="services-cap">
-                                <h5><a href="#">1. Choose a Category</a></h5>
+                                <h5><a href="#">1. Choose a Category</a></h5    >
                                 <p>incidid labore lore magna aliqua uisipsum suspendis loris.</p>
                             </div>
                             <!-- Shpape -->

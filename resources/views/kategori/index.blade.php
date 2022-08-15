@@ -14,7 +14,7 @@
                             <thead>
                                 <th>No</th>
                                 <th>Nama Kategori</th>
-                                <th>Deskripsi</th>
+                                <th>Foto</th>
                                 <th>Nama Wisata</th>
                                 <th>Aksi</th>
                             </thead>
@@ -24,7 +24,10 @@
                                     <tr>
                                         <td>{{ $no++ }}</td>
                                         <td>{{ $data->nama_kategori }}</td>
-                                        <td>{{ $data->deskripsi }}</td>
+                                        <td>
+                                            <img src="{{ $data->image() }}" style="width: 100px; height:100px;"
+                                                alt="">
+                                        </td>
                                         <td>{{ $data->wisata->nama_wisata }}</td>
                                         <td>
                                             <form action="{{ route('kategori.destroy', $data->id) }}" method="post">

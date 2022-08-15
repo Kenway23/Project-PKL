@@ -74,7 +74,7 @@ class WisataController extends Controller
      */
     public function show($id)
     {
-        $wisata = WIsata::findOrFail($id);
+        $wisata = Wisata::findOrFail($id);
         return view('wisata.show', compact('wisata'));
     }
 
@@ -104,7 +104,7 @@ class WisataController extends Controller
         $validated = $request->validate([
             'nama_wisata' => 'required',
             'alamat' => 'required', 
-            'deskripsi' => 'required|max:255',
+            'deskripsi' => 'required',
             'foto' => 'image|max:2048',
         ]);
 

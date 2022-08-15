@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Directory HTML-5 Template </title>
+        <title>Kategori Wisata </title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="manifest" href="site.webmanifest">
@@ -62,103 +62,49 @@
                     <div class="col-lg-12">
                         <!-- Section Tittle -->
                         <div class="section-tittle text-center mb-80">
-                            <span>Kami menawarkan untuk Anda</span>
-                            <h2>Kategori Wisata</h2>
+                            <h2>Kami Menawarkan untuk Anda</h2>
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-5 col-md-6 col-sm-6">
-                        <div class="single-cat text-center mb-50">
-                            <div class="cat-icon">
-                                <span class="flaticon-list"></span>
-                            </div>
-                            <div class="cat-cap">
-                                <h5><a href="#">Wisata Alam</a></h5>
-                                <p>Must explain your how this keind denoun pleasure</p>
-                                <a href="#">View Details</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="single-cat text-center mb-50">
-                            <div class="cat-icon">
-                                <span class="flaticon-respect"></span>
-                            </div>
-                            <div class="cat-cap">
-                                <h5><a href="#">Wisata Religi</a></h5>
-                                <p>Must explain your how this keind denoun pleasure</p>
-                                <a href="#">View Details</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-cat text-center mb-50">
                             <div class="cat-icon">
                                 <span class="flaticon-travel"></span>
                             </div>
                             <div class="cat-cap">
-                                <h5><a href="#">Wisata Budaya</a></h5>
-                                <p>Must explain your how this keind denoun pleasure</p>
-                                <a href="#">View Details</a>
+                                <h5><a href="wisata_alam">Wisata Alam</a></h5>
+                                <p>wisata alam sendiri adalah kegiatan perjalanan atau sebagian dari kegiatan tersebut yang dilakukan secara sukarela serta bersifat sementara untuk menikmati gejala keunikan dan keindahan alam di kawasan suaka margasatwa, taman nasional,dan taman hutan raya</p>
+                                <a href="wisata_alam">Lihat Paket WIsata Alam</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-cat text-center mb-50">
+                            <div class="cat-icon">
+                                <span class="flaticon-respect"></span>
+                            </div>
+                            <div class="cat-cap">
+                                <h5><a href="wisata_religi">Wisata Religi</a></h5>
+                                <p>Wisata religi dimaknai sebagai kegiatan wisata ke tempat yang memiliki makna khusus bagi umat beragama, biasanya beberapa tempat ibadah yang memiliki kelebihan. Ini misalnya dilihat dari sisi sejarah, adanya mitos dan legenda mengenai tempat tersebut, ataupun keunikan dan keunggulan arsitektur bangunannya.</p>
+                                <a href="wisata_religi">Lihat Paket WIsata Religi</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-cat text-center mb-50">
+                            <div class="cat-icon">
+                                <span class="flaticon-problem"></span>
+                            </div>
+                            <div class="cat-cap">
+                                <h5><a href="wisata_budaya">Wisata Budaya</a></h5>
+                                <p>Wisata Budaya adalah kegiatan perjalanan yang dilakukan oleh seseorang atau kelompok dengan mengunjungi tempat tertentu untuk tujuan rekreasi, pengembangan pribadi, atau mempelajari daya tarik budaya dengan memanfaatkan potensi budaya dari tempat yang dikunjungi tersebut.</p>
+                                <a href="wisata_budaya">Lihat Paket WIsata Budaya</a>
                             </div>
                         </div>
                     </div>
 
         <!-- Categories Area End -->
-        <!-- Services Area Start -->
-        <div class="services-area pt-150 pb-150 section-bg" data-background="{{asset('assets2/img/gallery/section_bg02.jpg')}}">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <!-- Section Tittle -->
-                        <div class="section-tittle section-tittle2 text-center mb-80">
-                            <span>Easy to explore</span>
-                            <h2>How It Works</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row justify-content-between">
-                    <div class="col-lg-3 col-md-6">
-                        <div class="single-services text-center mb-50">
-                            <div class="services-icon">
-                                <span class="flaticon-list"></span>
-                            </div>
-                            <div class="services-cap">
-                                <h5><a href="#">1. Choose a Category</a></h5>
-                                <p>incidid labore lore magna aliqua uisipsum suspendis loris.</p>
-                            </div>
-                            <!-- Shpape -->
-                            <img class="shape1 d-none d-lg-block" src="{{asset('assets2/img/icon/serices1.png')}}" alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="single-services text-center mb-50">
-                            <div class="services-icon">
-                                <span class="flaticon-problem"></span>
-                            </div>
-                            <div class="services-cap">
-                                <h5><a href="#">2. what you want</a></h5>
-                                <p>incidid labore lore magna aliqua uisipsum suspendis loris.</p>
-                            </div>
-                            <img class="shape2 d-none d-lg-block" src="{{asset('assets2/img/icon/serices2.png')}}" alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="single-services text-center mb-50">
-                            <div class="services-icon">
-                                <span class="flaticon-respect"></span>
-                            </div>
-                            <div class="services-cap">
-                                <h5><a href="#">3. Go out & Explore</a></h5>
-                                <p>incidid labore lore magna aliqua uisipsum suspendis loris.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Services Area End -->
         <!-- Popular Locations Start -->
         <div class="popular-location section-padding30">
             <div class="container">
@@ -166,8 +112,7 @@
                     <div class="col-lg-12">
                         <!-- Section Tittle -->
                         <div class="section-tittle text-center mb-80">
-                            <span>Most visited places</span>
-                            <h2>Popular Locations</h2>
+                            <h2>Top 3 Wisata Alam</h2>
                         </div>
                     </div>
                 </div>
@@ -175,68 +120,126 @@
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-location mb-30">
                             <div class="location-img">
-                                <img src="{{asset('assets2/img/gallery/location1.png')}}" alt="">
+                                <img src="{{asset('assets2/img/wisata/forestwalk.jpg')}}" alt="">
                             </div>
                             <div class="location-details">
-                                <p>New York</p>
-                                <a href="#" class="location-btn">65 <i class="ti-plus"></i> Location</a>
+                                <p>Forest Walk Babakan Siliwangi</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-location mb-30">
                             <div class="location-img">
-                                <img src="{{asset('assets2/img/gallery/location2.png')}}" alt="">
+                                <img src="{{asset('assets2/img/wisata/tamanhutanraya.jpg')}}" alt="">
                             </div>
                             <div class="location-details">
-                                <p>Paris</p>
-                                <a href="#" class="location-btn">60 <i class="ti-plus"></i> Location</a>
+                                <p>Taman Hutan Raya Ir. H. Djuanda</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-location mb-30">
                             <div class="location-img">
-                                <img src="{{asset('assets2/img/gallery/location3.png')}}" alt="">
+                                <img src="{{asset('assets2/img/wisata/tebingkeraton.jpg')}}" alt="">
                             </div>
                             <div class="location-details">
-                                <p>Rome</p>
+                                <p>Tebing Keraton</p>
                                 <a href="#" class="location-btn">50 <i class="ti-plus"></i> Location</a>
                             </div>
                         </div>
                     </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="popular-location section-padding30">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <!-- Section Tittle -->
+                        <div class="section-tittle text-center mb-80">
+                            <h2>Top 3 Wisata Religi</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-location mb-30">
                             <div class="location-img">
-                                <img src="{{asset('assets2/img/gallery/location4.png')}}" alt="">
+                                <img src="{{asset('assets2/img/wisata/masjidagung.jpg')}}" alt="" style="height:240px">
                             </div>
                             <div class="location-details">
-                                <p>Italy</p>
-                                <a href="#" class="location-btn">28 <i class="ti-plus"></i> Location</a>
+                                <p>Masjid Raya Bandung</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-location mb-30">
                             <div class="location-img">
-                                <img src="{{asset('assets2/img/gallery/location5.png')}}" alt="">
+                                <img src="{{asset('assets2/img/wisata/kampungmahmud.jpg')}}" alt="">
                             </div>
                             <div class="location-details">
-                                <p>Nepal</p>
-                                <a href="#" class="location-btn">99 <i class="ti-plus"></i> Location</a>
+                                <p>Kampung Mahmud</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-location mb-30">
                             <div class="location-img">
-                                <img src="{{asset('assets2/img/gallery/location6.png')}}" alt="">
+                                <img src="{{asset('assets2/img/wisata/masjidpusdai.jpg')}}" alt="">
                             </div>
                             <div class="location-details">
-                                <p>indonesia</p>
-                                <a href="#" class="location-btn">78 <i class="ti-plus"></i> Location</a>
+                                <p>Masjid Pusdai</p>
                             </div>
                         </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="popular-location section-padding30">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <!-- Section Tittle -->
+                        <div class="section-tittle text-center mb-80">
+                            <h2>Top 3 Wisata Budaya</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-location mb-30">
+                            <div class="location-img">
+                                <img src="{{asset('assets2/img/wisata/culturepark.jpg')}}" alt="" style="height:220px">
+                            </div>
+                            <div class="location-details">
+                                <p>West Java Cultural Park</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-location mb-30">
+                            <div class="location-img">
+                                <img src="{{asset('assets2/img/wisata/SeniMayang.jpg')}}" alt="">
+                            </div>
+                            <div class="location-details">
+                                <p>Padepokan Seni Mayang Sunda</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-location mb-30">
+                            <div class="location-img">
+                                <img src="{{asset('assets2/img/wisata/saungangklung.jpg')}}" alt="">
+                            </div>
+                            <div class="location-details">
+                                <p>Saung Angklung Udjo</p>
+                            </div>
+                        </div>
+                    </div>
                     </div>
                 </div>
             </div>

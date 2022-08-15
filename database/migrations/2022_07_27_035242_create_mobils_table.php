@@ -16,7 +16,7 @@ return new class extends Migration
         Schema::create('mobils', function (Blueprint $table) {
             $table->id();
             $table->string('jenis_mobil');
-            $table->string('deskripsi');
+            $table->text('deskripsi');
             $table->string('foto');
             $table->timestamps();
         });

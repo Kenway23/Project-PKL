@@ -10,7 +10,7 @@
                     </div>
                     <div class="card-body">
                         <div class="mb-3">
-                            <label class="form-label">Jenis Mobil</label>
+                            <label class="form-label">Nama Mobil</label>
                             <input type="text" class="form-control" name="jenis_mobil" value="{{ $mobil->jenis_mobil }}" readonly>
                         </div>
                         <div class="mb-3">
@@ -30,7 +30,7 @@
                         </div>
                         <div class="mb-3">
                             <div class="d-grid gap-2">
-                                <a href="{{ route('deskripsi.index') }}" class="btn btn-primary">Kembali</a>
+                                <a href="{{ route('mobil.index') }}" class="btn btn-primary">Kembali</a>
                             </div>
                         </div>
                         </form>

@@ -13,7 +13,6 @@
                             <label class="form-label">Nama Wisata</label>
                             <input type="text" class="form-control" name="nama_wisata" value="{{ $wisata->nama_wisata }}" readonly>
                         </div>
-                        </div>
                         <div class="mb-3">
                             <label class="form-label">Alamat</label>
                             <input type="text" class="form-control" name="alamat" value="{{ $wisata->alamat }}" readonly>
@@ -35,8 +34,9 @@
                         </div>
                         <div class="mb-3">
                             <div class="d-grid gap-2">
-                                <a href="{{ route('deskripsi.index') }}" class="btn btn-primary">Kembali</a>
+                                <a href="{{ route('wisata.index') }}" class="btn btn-primary">Kembali</a>
                             </div>
+                        </div>
                         </div>
                         </form>
                     </div>

@@ -16,7 +16,8 @@ return new class extends Migration
         Schema::create('kategoris', function (Blueprint $table) {
             $table->id();
             $table->string('nama_kategori');
-            $table->string('deskripsi');
+            $table->text('deskripsi');
+            $table->string('foto');
             $table->unsignedBigInteger('id_wisata');
             $table->foreign('id_wisata')->references('id')->on('wisatas')
                 ->onDelete('cascade');

@@ -6,7 +6,7 @@
                 @include('layouts/_flash')
                 <div class="card border-secondary">
                     <div class="card-header">
-                        Data Siswa
+                        Data Wisata
                         <a href="{{ route('wisata.create') }}" class="btn btn-sm btn-primary" style="float: right">
                             Tambah Data
                         </a>

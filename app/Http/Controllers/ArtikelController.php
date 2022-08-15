@@ -101,7 +101,7 @@ class ArtikelController extends Controller
         // Validasi
         $validated = $request->validate([
             'nama_artikel' => 'required',
-            'deskripsi' => 'required|max:255',
+            'deskripsi' => 'required',
             'foto' => 'image|max:2048',
         ]);
 

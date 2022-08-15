@@ -32,6 +32,16 @@
                                 @enderror
                             </div>
                             <div class="mb-3">
+                                <label class="form-label">Foto Kategori</label>
+                                <input type="file" class="form-control  @error('foto') is-invalid @enderror"
+                                    name="foto">
+                                @error('foto')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
+                            <div class="mb-3">
                                 <label class="form-label">Pilih Data Wisata</label>
                                 <select name="id_wisata" class="form-control @error('id_wisata') is-invalid @enderror"
                                     id="">

@@ -6,7 +6,7 @@
                 @include('layouts/_flash')
                 <div class="card border-secondary">
                     <div class="card-header">
-                        Data Siswa
+                        Data Mobil
                         <a href="{{ route('mobil.create') }}" class="btn btn-sm btn-primary" style="float: right">
                             Tambah Data
                         </a>
@@ -18,7 +18,7 @@
                                 <thead>
                                     <tr>
                                         <th>No</th>
-                                        <th>Jenis Mobil</th>
+                                        <th>Nama Mobil</th>
                                         <th>Deskripsi</th>
                                         <th>Foto</th>
                                     </tr>

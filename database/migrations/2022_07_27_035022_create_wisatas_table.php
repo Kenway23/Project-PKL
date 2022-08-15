@@ -17,7 +17,7 @@ return new class extends Migration
             $table->id();
             $table->string('nama_wisata');
             $table->string('alamat');
-            $table->string('deskripsi');
+            $table->text('deskripsi');
             $table->string('foto');
             $table->timestamps();
         });

@@ -17,9 +17,9 @@
                                 <div class="footer-tittle">
                                     <h4>Quick Link</h4>
                                     <ul>
-                                        <li><a href="#">Beranda</a></li>
-                                        <li><a href="#">Paket Wisata</a></li>
-                                        <li><a href="#">Rental Mobil</a></li>
+                                        <li><a href="user">Beranda</a></li>
+                                        <li><a href="paket_wisata">Paket Wisata</a></li>
+                                        <li><a href="rental_mobil">Rental Mobil</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -29,9 +29,9 @@
                                 <div class="footer-tittle">
                                     <h4>Kategori Wisata</h4>
                                     <ul>
-                                        <li><a href="#">Wisata Alam</a></li>
-                                        <li><a href="#">Wisata Religi</a></li>
-                                        <li><a href="#">Wisata Budaya</a></li>     
+                                        <li><a href="wisata_alam">Wisata Alam</a></li>
+                                        <li><a href="wisata_religi">Wisata Religi</a></li>
+                                        <li><a href="wisata_budaya">Wisata Budaya</a></li>     
                                     </ul>
                                 </div>
                             </div>

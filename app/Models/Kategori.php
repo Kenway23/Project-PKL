@@ -22,8 +22,8 @@ class Kategori extends Model
     // method menampilkan image(foto)
     public function image()
     {
-        if ($this->foto && file_exists(public_path('images/wisata/' . $this->foto))) {
-            return asset('images/wisata/' . $this->foto);
+        if ($this->foto && file_exists(public_path('images/kategori/' . $this->foto))) {
+            return asset('images/kategori/' . $this->foto);
         } else {
             return asset('images/no_image.jpg');
         }
@@ -31,8 +31,8 @@ class Kategori extends Model
     // mengahupus image(foto) di storage(penyimpanan) public
     public function deleteImage()
     {
-        if ($this->foto && file_exists(public_path('images/wisata/' . $this->foto))) {
-            return unlink(public_path('images/wisata/' . $this->foto));
+        if ($this->foto && file_exists(public_path('images/kategori/' . $this->foto))) {
+            return unlink(public_path('images/kategori/' . $this->foto));
         }
     }
 }

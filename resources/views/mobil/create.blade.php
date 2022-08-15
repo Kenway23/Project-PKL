@@ -13,7 +13,7 @@
                         <form action="{{ route('mobil.store') }}" method="post" enctype="multipart/form-data">
                             @csrf
                             <div class="mb-3">
-                                <label class="form-label">Jenis Mobil</label>
+                                <label class="form-label">Nama Mobil</label>
                                 <input type="text" class="form-control  @error('jenis_mobil') is-invalid @enderror"
                                     name="jenis_mobil">
                                 @error('jenis_mobil')

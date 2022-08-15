@@ -49,7 +49,7 @@
                         <div class="col-xl-8 col-lg-9">
                             <!-- Hero Caption -->
                             <div class="hero__caption">
-                                <h1>Selamat Datang Website Kami</h1>
+                                <h1>Selamat Datang Di Website Kami</h1>
                             </div>
                         </div>
                     </div>
@@ -76,7 +76,7 @@
                                 <span class="flaticon-work"></span>
                             </div>
                             <div class="cat-cap">
-                                <h5><a href="catagori.html">Berpengalaman</a></h5>
+                                <h5><a href="#">Berpengalaman</a></h5>
                                 <p>Kami memiliki tim yang profesional dan berpengalaman dibidangnya masing-masing, sehingga dapat memberikan pelayanan yang optimal.</p>
                             </div>
                         </div>
@@ -87,7 +87,7 @@
                                 <span class="flaticon-problem"></span>
                             </div>
                             <div class="cat-cap">
-                                <h5><a href="catagori.html">Kualitas Pelayanan</a></h5>
+                                <h5><a href="#">Kualitas Pelayanan</a></h5>
                                 <p>Kerja keras dan memberikan pelayanan dengan hati merupakan dedikasi kami untuk memastikan liburan Anda berkesan dan menyenangkan.</p>
                             </div>
                         </div>
@@ -98,7 +98,7 @@
                                 <span class="flaticon-list"></span>
                             </div>
                             <div class="cat-cap">
-                                <h5><a href="catagori.html">Harga Bersaing</a></h5>
+                                <h5><a href="#">Harga Bersaing</a></h5>
                                 <p>Dengan jaringan dan mitra yang kuat dibidang pariwisata, membuat kami dapat memberikan pelayanan dan harga terbaik untuk tour Anda.</p>
                             </div>
                         </div>
@@ -110,7 +110,7 @@
                             </div>
                             <div class="cat-cap">
                             <ion-icon name="car-outline"></ion-icon>
-                                <h5><a href="catagori.html">Mudah dan Praktis</a></h5>
+                                <h5><a href="#">Mudah dan Praktis</a></h5>
                                 <p>Kami memberikan kemudahan dalam mempersiapkan akomodasi dan transportasi terbaik, agar rencana liburan Anda berjalanan dengan lancar.</p>
                             </div>
                         </div>
@@ -119,94 +119,51 @@
             </div>
         </div>
         <!-- Categories Area End -->
-        <!-- Popular Locations Start -->
-        <div class="popular-location section-padding30">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <!-- Section Tittle -->
-                        <div class="section-tittle text-center mb-80">
-                            <h2>Tempat Terfavorit</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-location mb-30">
-                            <div class="location-img">
-                                <img src="{{asset('assets2/img/gallery/location1.png')}}" alt="">
-                            </div>
-                            <div class="location-details">
-                                <p>New York</p>
-                                <a href="#" class="location-btn">65 <i class="ti-plus"></i> Location</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-location mb-30">
-                            <div class="location-img">
-                                <img src="{{asset('assets2/img/gallery/location2.png')}}" alt="">
-                            </div>
-                            <div class="location-details">
-                                <p>Paris</p>
-                                <a href="#" class="location-btn">60 <i class="ti-plus"></i> Location</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-location mb-30">
-                            <div class="location-img">
-                                <img src="{{asset('assets2/img/gallery/location3.png')}}" alt="">
-                            </div>
-                            <div class="location-details">
-                                <p>Rome</p>
-                                <a href="#" class="location-btn">50 <i class="ti-plus"></i> Location</a>
+         <!-- peoples-visit Start -->
+         <div class="peoples-visit dining-padding-top">
+            <!-- Single Left img -->
+            <div class="single-visit left-img">
+                <div class="container">
+                    <div class="row justify-content-end">
+                        <div class="col-lg-8">
+                            <div class="visit-caption">
+                                <h3>PROFIL PERUSAHAAN</h3>
+                                <p>CV. Arsy Global Nusantara (Arsy Tours & Wisata), merupakan agen/biro wisata perjalanan yang didirikan pada tahun 2013. Kami terdiri dari profesional yang memiliki pengalaman dibidang pariwisata maupun penerbangan. Saat ini kami melayani Paket Perjalanan Tour ke Bandung Selain itu kami menyediakan jasa layanan Rental Mobil di Bandung tentunya dengan kualitas kendaraan yang bersih, aman, terawat dan nyaman.
+                                     produk  yang kami tawarkan kepada anda :
+                                    Paket Tour dan Berwisata.
+                                        Totalitas, Loyalitas dan Integritas adalah modal kami dalam menjalankan usaha ini. Di tunjang dengan pengalaman yang kami miliki dalam jasa biro perjalanan, kami yakin perusahaan kami dapat menjadi mitra perjalanan anda dengan pelayanan yang baik dan memuaskan.</p>
+                                <!--Single Visit categories -->
+                                <div class="visit-categories mb-40">
+                                    <div class="visit-location">
+                                        <span class="flaticon-travel"></span>
+                                    </div>
+                                    <div class="visit-cap">
+                                        <h4>Visi</h4>
+                                        <p>Menjadi perusahaan multi nasional tingkat global dalam jasa pelayanan transportasi, akomodasi, tours & wisata yang dapat memberikan kontribusi pertumbuhan ekonomi.
+                                        </p>
+                                    </div>
+                                </div>
+                                <!--Single Visit categories -->
+                                <div class="visit-categories">
+                                    <div class="visit-location">
+                                        <span class="flaticon-work"></span>
+                                    </div>
+                                    <div class="visit-cap">
+                                        <h4>Misi</h4>
+                                        <p>1. Melayani dan menyediakan produk yang terbaik kepada seluruh pelanggan dan mitra, untuk jasa transportasi, akomodasi dan tours & wisata.
+                                        </p>
+                                        <p>
+                                        2. Menyiapkan SDM yang handal dan terampil dibidangnya dan berkomitmen pada standard kerja yang tinggi.
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-location mb-30">
-                            <div class="location-img">
-                                <img src="{{asset('assets2/img/gallery/location4.png')}}" alt="">
-                            </div>
-                            <div class="location-details">
-                                <p>Italy</p>
-                                <a href="#" class="location-btn">28 <i class="ti-plus"></i> Location</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-location mb-30">
-                            <div class="location-img">
-                                <img src="{{asset('assets2/img/gallery/location5.png')}}" alt="">
-                            </div>
-                            <div class="location-details">
-                                <p>Nepal</p>
-                                <a href="#" class="location-btn">99 <i class="ti-plus"></i> Location</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-location mb-30">
-                            <div class="location-img">
-                                <img src="{{asset('assets2/img/gallery/location6.png')}}" alt="">
-                            </div>
-                            <div class="location-details">
-                                <p>indonesia</p>
-                                <a href="#" class="location-btn">78 <i class="ti-plus"></i> Location</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- More Btn -->
-                <div class="row justify-content-center">
-                    <div class="room-btn pt-20">
-                        <a href="#" class="btn view-btn1">Lihat Senua Tempat</a>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Popular Locations End -->
+        <!-- peoples-visit End -->
         <!-- Services Area Start -->
         <div class="services-area pt-150 pb-150 section-bg" data-background="{{asset('assets2/img/gallery/section_bg02.jpg')}}">
             <div class="container">
@@ -214,8 +171,7 @@
                     <div class="col-lg-12">
                         <!-- Section Tittle -->
                         <div class="section-tittle section-tittle2 text-center mb-80">
-                            <span>Easy to explore</span>
-                            <h2>How It Works</h2>
+                            <h2>Moto Perusahaan</h2>
                         </div>
                     </div>
                 </div>
@@ -226,8 +182,7 @@
                                 <span class="flaticon-list"></span>
                             </div>
                             <div class="services-cap">
-                                <h5><a href="#">1. Choose a Category</a></h5    >
-                                <p>incidid labore lore magna aliqua uisipsum suspendis loris.</p>
+                                <h5><a href="#">1. Kepuasan Pelanggan Nomor 1</a></h5>
                             </div>
                             <!-- Shpape -->
                             <img class="shape1 d-none d-lg-block" src="{{asset('assets2/img/icon/serices1.png')}}" alt="">
@@ -239,8 +194,7 @@
                                 <span class="flaticon-problem"></span>
                             </div>
                             <div class="services-cap">
-                                <h5><a href="#">2. what you want</a></h5>
-                                <p>incidid labore lore magna aliqua uisipsum suspendis loris.</p>
+                                <h5><a href="#">2. Kepuasan Pelanggan Adalah Tujuan Kami</a></h5>
                             </div>
                             <img class="shape2 d-none d-lg-block" src="{{asset('assets2/img/icon/serices2.png')}}" alt="">
                         </div>
@@ -251,8 +205,7 @@
                                 <span class="flaticon-respect"></span>
                             </div>
                             <div class="services-cap">
-                                <h5><a href="#">3. Go out & Explore</a></h5>
-                                <p>incidid labore lore magna aliqua uisipsum suspendis loris.</p>
+                                <h5><a href="#">3. Hadir Untuk Melayani Keinginan Pelanggan Dengan Maksimal</a></h5>
                             </div>
                         </div>
                     </div>
@@ -260,104 +213,61 @@
             </div>
         </div>
         <!-- Services Area End -->
-         <!-- peoples-visit Start -->
-         <div class="peoples-visit dining-padding-top">
-            <!-- Single Left img -->
-            <div class="single-visit left-img">
-                <div class="container">
-                    <div class="row justify-content-end">
-                        <div class="col-lg-8">
-                            <div class="visit-caption">
-                                <span>We are offering for you</span>
-                                <h3>Every Month, Millions of People 
-                                    visit this site We’ve Built.</h3>
-                                <p>Unlike what its name implies, dry cleaning is not actually a 'dry' process. Clothes are soaked in a different solvent.</p>
-                                <!--Single Visit categories -->
-                                <div class="visit-categories mb-40">
-                                    <div class="visit-location">
-                                        <span class="flaticon-travel"></span>
-                                    </div>
-                                    <div class="visit-cap">
-                                        <h4>Great places in the world</h4>
-                                        <p>Unlike what its name implies, dry cleaning is not actu  process. Clothes soaked differentent.
-                                        </p>
-                                    </div>
-                                </div>
-                                <!--Single Visit categories -->
-                                <div class="visit-categories">
-                                    <div class="visit-location">
-                                        <span class="flaticon-work"></span>
-                                    </div>
-                                    <div class="visit-cap">
-                                        <h4>Biggest category listing</h4>
-                                        <p>Unlike what its name implies, dry cleaning is not actu  process. Clothes soaked differentent.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- peoples-visit End -->
-        <!-- Blog Ara Start -->
-        <div class="home-blog-area section-padding30">
+    <!-- Popular Locations Start -->
+    <div class="popular-location section-padding30">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
                         <!-- Section Tittle -->
-                        <div class="section-tittle text-center mb-70">
-                            <span>Our blog</span>
-                            <h2>News and tips</h2>
-                        </div> 
+                        <div class="section-tittle text-center mb-80">
+                            <h2>Top 3 Tempat Terfavorit</h2>
+                        </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-team mb-30">
-                            <div class="team-img">
-                                <img src="{{asset('assets2/img/gallery/home_blog1.png')}}" alt="">
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-location mb-30">
+                            <div class="location-img">
+                                <img src="{{asset('assets2/img/wisata/tamanhutanraya.jpg')}}" alt="">
                             </div>
-                            <div class="team-caption">
-                                <span>HEALTH & CARE</span>
-                                <h3><a href="blog.html">The Best SPA Salons For
-                                    Your Relaxation</a></h3>
-                                <p>October 6, 2020by Steve</p>
+                            <div class="location-details">
+                                <p>Taman Hutan Raya Ir. H. Djuanda</p>
+                                
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-team mb-30">
-                            <div class="team-img">
-                                <img src="{{asset('assets2/img/gallery/home_blog2.png')}}" alt="">
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-location mb-30">
+                            <div class="location-img">
+                                <img src="{{asset('assets2/img/wisata/tebingkeraton.jpg')}}" alt="">
                             </div>
-                            <div class="team-caption">
-                                <span>HEALTH & CARE</span>
-                                <h3><a href="blog.html">The Best SPA Salons For
-                                    Your Relaxation</a></h3>
-                                <p>October 6, 2020by Steve</p>
+                            <div class="location-details">
+                                <p>Tebing Keraton</p>
+                         
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-team mb-30">
-                            <div class="team-img">
-                                <img src="{{asset('assets2/img/gallery/home_blog3.png')}}" alt="">
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-location mb-30">
+                            <div class="location-img">
+                                <img src="{{asset('assets2/img/wisata/forestwalk.jpg')}}" alt="">
                             </div>
-                            <div class="team-caption">
-                                <span>HEALTH & CARE</span>
-                                <h3><a href="blog.html">The Best SPA Salons For
-                                    Your Relaxation</a></h3>
-                                <p>October 6, 2020by Steve</p>
+                            <div class="location-details">
+                                <p>Forest Walk Babakan Siliwangi</p>
+                    
                             </div>
                         </div>
+                    </div>
+                </div>
+                <!-- More Btn -->
+                <div class="row justify-content-center">
+                    <div class="room-btn pt-20">
+                        <a href="paket_wisata" class="btn view-btn1">Lihat Senua Tempat</a>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Blog Ara End -->
-
+        <!-- Popular Locations End -->
     </main>
     <footer>
         <!-- Footer Start-->

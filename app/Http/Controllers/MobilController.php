@@ -101,7 +101,7 @@ class MobilController extends Controller
         // Validasi
         $validated = $request->validate([
             'jenis_mobil' => 'required',
-            'deskripsi' => 'required|max:255',
+            'deskripsi' => 'required',
             'foto' => 'image|max:2048',
         ]);
 

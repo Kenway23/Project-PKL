@@ -30,7 +30,7 @@
                         </div>
                         <div class="mb-3">
                             <div class="d-grid gap-2">
-                                <a href="{{ route('deskripsi.index') }}" class="btn btn-primary">Kembali</a>
+                                <a href="{{ route('artikel.index') }}" class="btn btn-primary">Kembali</a>
                             </div>
                         </div>
                         </form>

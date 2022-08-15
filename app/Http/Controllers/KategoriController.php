@@ -39,12 +39,19 @@ class KategoriController extends Controller
         $validated = $request->validate([
             'nama_kategori' => 'required',
             'deskripsi' => 'required',
+            'foto' => 'required|image|max:2048',
             'id_wisata' => 'required|unique:kategoris',
          ]);
 
         $kategori = new Kategori();
         $kategori->nama_kategori = $request->nama_kategori;
         $kategori->deskripsi = $request->deskripsi;
+        if ($request->hasFile('foto')) {
+            $image = $request->file('foto');
+            $name = rand(1000, 9999) . $image->getClientOriginalName();
+            $image->move('images/kategori/', $name);
+            $kategori->foto = $name;
+        }
         $kategori->id_wisata = $request->id_wisata;
         $kategori->save();
         return redirect()->route('kategori.index')
@@ -69,12 +76,20 @@ class KategoriController extends Controller
         $validated = $request->validate([
             'nama_kategori' => 'required',
             'deskripsi' => 'required',
+            'foto' => 'image|max:2048',
             'id_wisata' => 'required',
         ]);
 
         $kategori = Kategori::findOrFail($id);
         $kategori->nama_kategori = $request->nama_kategori;
         $kategori->deskripsi = $request->deskripsi;
+        if ($request->hasFile('foto')) {
+            $kategori->deleteImage(); //menghapus foto sebelum di update melalui method deleteImage di model
+            $image = $request->file('foto');
+            $name = rand(1000, 9999) . $image->getClientOriginalName();
+            $image->move('images/kategori/', $name);
+            $kategori->foto = $name;
+        }
         $kategori->id_wisata = $request->id_wisata;
         $kategori->save();
         return redirect()->route('kategori.index')

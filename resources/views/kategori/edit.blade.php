@@ -33,6 +33,23 @@
                                 @enderror
                             </div>
                             <div class="mb-3">
+                                <label class="form-label">Foto Kategori</label>
+                                @if (isset($kategori) && $kategori->foto)
+                                    <p>
+                                        <img src="{{ asset('images/kategori/' . $kategori->foto) }}"
+                                            class="img-rounded img-responsive" style="width: 75px; height:75px;"
+                                            alt="">
+                                    </p>
+                                @endif
+                                <input type="file" class="form-control  @error('foto') is-invalid @enderror"
+                                    name="foto" value="{{ $kategori->nama }}">
+                                @error('foto')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
+                            <div class="mb-3">
                                 <label class="form-label">Pilih Data Wisata</label>
                                 <select name="id_wisata" class="form-control @error('id_wisata') is-invalid @enderror"
                                     readonly>

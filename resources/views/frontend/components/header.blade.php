@@ -17,17 +17,16 @@
                                     <nav>
                                         <ul id="navigation">                                                                                                                                     
                                             <li><a href="user">Beranda</a></li>
-                                            <li><a href="about.html">Paket Wisata</a></li>
+                                            <li><a href="paket_wisata">Paket Wisata</a></li>
                                             <li><a href="blog">Artikel</a></li>
-                                            <li><a href="listing.html">Rental Mobil</a></li>
+                                            <li><a href="rental_mobil">Rental Mobil</a></li>
                                             <li><a href="category">Kategori Wisata</a>
                                                 <ul class="submenu">
-                                                    <li><a href="blog.html">Wisata Alam</a></li>
-                                                    <li><a href="blog_details.html">Wisata Religi</a></li>
-                                                    <li><a href="elements.html">WIsata Budaya</a></li>
+                                                    <li><a href="wisata_alam">Wisata Alam</a></li>
+                                                    <li><a href="wisata_religi">Wisata Religi</a></li>
+                                                    <li><a href="wisata_budaya">WIsata Budaya</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="contact.html">Contact</a></li>
                                         </ul>
                                     </nav>
                                 </div>
